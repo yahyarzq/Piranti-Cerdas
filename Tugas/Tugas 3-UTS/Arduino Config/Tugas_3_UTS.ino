@@ -45,7 +45,7 @@ void sendSensor()
   if(( temperature >= 26.0 && temperature <= 27.0 ) && (humidity >= 76.0 && humidity <= 81.0 ) && (pressure <= 101.02 )){
     rain = "Hujan Ringan";
     }
-  else if (( temperature >= 27.0 && temperature <= 28.0 ) && (humidity >= 81.0 && humidity <= 82.0 ) && (pressure > 101.02 )&& (pressure < 101.05 )){
+  else if (( temperature >= 27.0 && temperature <= 28.0 ) && (humidity >= 81.0 && humidity <= 82.0 ) && (pressure > 101.02 && pressure < 101.05 )){
     rain = "Hujan Sedang";
     }
   else if(( temperature >= 28.0 && temperature <= 30.0 ) && (humidity >= 82.0 && humidity <= 85.0 ) && (pressure >= 101.05 )){
